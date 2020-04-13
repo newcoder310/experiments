@@ -103,9 +103,6 @@ public class ShardConfiguration {
     {
         DataSourceInitializer dataSourceInitializer = new DataSourceInitializer();
         dataSourceInitializer.setDataSource(shard1DataSource());
-        //esourceDatabasePopulator databasePopulator = new ResourceDatabasePopulator();
-        //databasePopulator.addScript(new ClassPathResource("shard1-data.sql"));
-        //dataSourceInitializer.setDatabasePopulator(databasePopulator);
         dataSourceInitializer.setEnabled(env.getProperty("datasource.shard1.initialize", Boolean.class, true));
         dataSourceInitializer.setEnabled(env.getProperty("datasource.shard2.initialize", Boolean.class, true));
         return dataSourceInitializer;

@@ -1,41 +1,13 @@
 This is a sample project for my demos
-
-NGINX
-   Demonstrates the use of nginx as a reverse proxy and a load balancer.
-   The project contains a file called `nginx.conf` which needs to be modified based on the ports.
-To use it as a simple reverse proxy   
-   ```http {
-    server {
-        listen 8080;
-        server_name localhost;
-
-        location / {
-            proxy_pass http://localhost:8081;
-            proxy_set_header  X-Real-IP $remote_addr;
-	    proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-	    proxy_set_header  Host $http_host;
-        }
-    }
-    }```
-
-Modify the above properties to change add the proxy address.
-
-To Use it as a load balancer 
-
-```http {
-	upstream backend {
-		server localhost:8081;
-		server localhost:8082;
-	}
-	    server {
-		listen 8085;
-		server_name localhost;
-
-		location / {
-		    proxy_pass http://backend;
-		    proxy_set_header  X-Real-IP $remote_addr;
-		    proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-		    proxy_set_header  Host $http_host;
-		}
-	    }
-	}```
+- NGINX : Demos the use nginx as a reverse proxy 
+- Load Balancer: Demso the use of nginx as a load balancer
+- Sharding: Demos the insertion and retrieval of data with 2 shards(simple sprinboot application).
+- SpringBatch: Demos a spring batch application that reads, processes and writes a csv file.
+- Leader Election:
+- Spring Security: 
+- Spring Security(LDAP):
+- Cassandra with Datastax:
+- Redis demo (with sentinals):
+- Kafka with avro:
+- CDC using Kafka-Connect(Confluent):
+   
