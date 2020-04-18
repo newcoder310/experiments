@@ -1,5 +1,5 @@
 #ETCD_CONNECTION
-Basic connection test to etcd
+Basic connection test to etcd via spring boot.
 
 <h3>
 Instructions to Run</h3>
