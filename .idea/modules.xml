@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/etcd-test/etcd-test.iml" filepath="$PROJECT_DIR$/etcd-test/etcd-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/experiments.iml" filepath="$PROJECT_DIR$/.idea/experiments.iml" />
     </modules>
   </component>
