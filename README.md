@@ -7,8 +7,9 @@ This is a sample project for my demos
 - SpringBatch: Demos a spring batch application that reads, processes and writes a csv file.
 - Etcd Integration: Demo to show the integration of etcd with springboot. Part1 for Leader Election
 - Spring Profiles: A simple example to demo the use of profiles in spring
-- Kalah Game Implementation
-##Upcoming Projects
+- Kalah Game Implementation<br>
+
+## Upcoming Projects
 - Spring Security: 
 - Spring Security(LDAP):
 - Cassandra with Datastax:
