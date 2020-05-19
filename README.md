@@ -8,6 +8,7 @@ This is a sample project for my demos
 - Etcd Integration: Demo to show the integration of etcd with springboot. Part1 for Leader Election
 - Spring Profiles: A simple example to demo the use of profiles in spring
 - Kalah Game Implementation
+- Spring-boot with https
 ##Upcoming Projects
 - Spring Security: 
 - Spring Security(LDAP):
