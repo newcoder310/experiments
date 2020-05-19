@@ -9,7 +9,9 @@ This is a sample project for my demos
 - Spring Profiles: A simple example to demo the use of profiles in spring
 - Kalah Game Implementation
 - Spring-boot with https
-##Upcoming Projects
+- Kalah Game Implementation<br>
+
+## Upcoming Projects
 - Spring Security: 
 - Spring Security(LDAP):
 - Cassandra with Datastax:
