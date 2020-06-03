@@ -10,7 +10,7 @@ This is a sample project for my demos
 - Kalah Game Implementation
 - Spring-boot with https
 - Kalah Game Implementation<br>
-
+- Google Vision API Text From Image DEMO
 ## Upcoming Projects
 - Spring Security: 
 - Spring Security(LDAP):
