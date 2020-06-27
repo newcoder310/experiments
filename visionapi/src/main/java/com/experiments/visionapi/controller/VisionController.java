@@ -1,5 +1,6 @@
 package com.experiments.visionapi.controller;
 
+import com.experiments.visionapi.service.BookService;
 import com.google.cloud.vision.v1.AnnotateImageResponse;
 import com.google.cloud.vision.v1.Feature;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/imageToText")
+@RequestMapping("/question")
 public class VisionController {
 
     @Autowired
@@ -20,13 +21,16 @@ public class VisionController {
     @Autowired
     private CloudVisionTemplate cloudVisionTemplate;
 
+    @Autowired
+    private BookService bookService;
+
     @GetMapping
-    public String readTextFromImage(){
-        //Add your own Text.jpeg image in scr/main/resources
-        Resource imageResource = this.resourceLoader.getResource("file:src/main/resources/Text.jpeg");
+    public String readQuestionFromImage(){
+        Resource imageResource = this.resourceLoader.getResource("file:src/main/resources/test.png");
         AnnotateImageResponse response = this.cloudVisionTemplate.analyzeImage(
                 imageResource, Feature.Type.DOCUMENT_TEXT_DETECTION);
-        return this.cloudVisionTemplate.extractTextFromImage(imageResource);
+        //String text = this.cloudVisionTemplate.extractTextFromImage(imageResource);
+        return response.getFullTextAnnotation().getText();
     }
 
 }
