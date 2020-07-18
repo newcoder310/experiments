@@ -11,12 +11,12 @@ This is a sample project for my demos
 - Spring-boot with https
 - Kalah Game Implementation<br>
 - Google Vision API Text From Image DEMO
+- Basic Spring Security
+- Spring Security Using OAuth
 ## Upcoming Projects
-- Spring Security: 
-- Spring Security(LDAP):
-- Cassandra with Datastax:
-- Redis demo (with sentinals):
-- Kafka with avro:
-- CDC using Kafka-Connect(Confluent):
-
-   
+- Spring Security(LDAP)
+- Mutual TLS Demo
+- Cassandra with Datastax
+- Redis demo (with sentinals)
+- Kafka with avro
+- CDC using Kafka-Connect(Confluent)

@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId:
+      clientSecret:
+      accessTokenUri: https://github.com/oauth/access_token
+      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      tokenName: oauth_token
+      authenticaitonScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://graph.facebook.com/me
