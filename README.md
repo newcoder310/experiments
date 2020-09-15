@@ -9,7 +9,6 @@ This is a sample project for my demos
 - Spring Profiles: A simple example to demo the use of profiles in spring
 - Kalah Game Implementation
 - Spring-boot with https
-- Kalah Game Implementation<br>
 - Google Vision API Text From Image DEMO
 - Basic Spring Security
 - Spring Security Using OAuth
