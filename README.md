@@ -6,8 +6,7 @@ This is a sample project for my demos
 - Sharding: Demos the insertion and retrieval of data with 2 shards(simple sprinboot application).
 - SpringBatch: Demos a spring batch application that reads, processes and writes a csv file.
 - Etcd Integration: Demo to show the integration of etcd with springboot. Part1 for Leader Election
-- Spring Profiles: A simple example to demo the use of profiles in spring
-- Kalah Game Implementation
+- Spring Profiles: A simple example to demo the use of profiles
 - Spring-boot with https
 - Google Vision API Text From Image DEMO
 - Basic Spring Security
