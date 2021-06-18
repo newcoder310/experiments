@@ -17,4 +17,4 @@ This is a sample project for my demos
 - Cassandra with Datastax
 - Redis demo (with sentinals)
 - Kafka with avro
-- CDC using Kafka-Connect(Confluent)
+- CDC using Kafka-Connect
